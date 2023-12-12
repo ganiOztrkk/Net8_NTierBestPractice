@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{AA2C84F9-A20D-4CE9-B864-BB460E9654CC}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NTierBestPractise" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Behaviors" expanded="True" />
+              <Node name="Features" expanded="True">
+                <Node name="Products" expanded="True">
+                  <Node name="CreateProduct" expanded="True">
+                    <Node name="CreateProductCommandValidator.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="WebApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

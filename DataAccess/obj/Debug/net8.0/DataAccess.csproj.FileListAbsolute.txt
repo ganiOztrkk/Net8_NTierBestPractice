@@ -1,0 +1,17 @@
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/bin/Debug/net8.0/DataAccess.deps.json
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/bin/Debug/net8.0/DataAccess.runtimeconfig.json
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/bin/Debug/net8.0/DataAccess.dll
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/bin/Debug/net8.0/DataAccess.pdb
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/bin/Debug/net8.0/Entities.dll
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/bin/Debug/net8.0/Entities.pdb
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.csproj.AssemblyReference.cache
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfoInputs.cache
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfo.cs
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CopyComplete
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.dll
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.pdb
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/DataAccess.genruntimeconfig.cache
+/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll

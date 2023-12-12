@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Features\" />
+    <None Remove="Features\Categories\" />
+    <None Remove="Features\Categories\CreateCategory\" />
+    <None Remove="Features\Categories\UpdateCategory\" />
+    <None Remove="Features\Categories\GetCategories\" />
+    <None Remove="Features\Products\" />
+    <None Remove="Features\Products\CreateProduct\" />
+    <None Remove="Features\Products\UpdateProduct\" />
+    <None Remove="Features\Products\GetProducts\" />
+    <None Remove="Features\Categories\RemoveCategoryById\" />
+    <None Remove="Features\Products\RemoveProductById\" />
+    <None Remove="Behaviors\" />
+    <None Remove="Mapping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Features\Categories\" />
+    <Folder Include="Features\Categories\CreateCategory\" />
+    <Folder Include="Features\Categories\UpdateCategory\" />
+    <Folder Include="Features\Categories\GetCategories\" />
+    <Folder Include="Features\Products\" />
+    <Folder Include="Features\Products\CreateProduct\" />
+    <Folder Include="Features\Products\UpdateProduct\" />
+    <Folder Include="Features\Products\GetProducts\" />
+    <Folder Include="Features\Categories\RemoveCategoryById\" />
+    <Folder Include="Features\Products\RemoveProductById\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Mapping\" />
+  </ItemGroup>
+</Project>
