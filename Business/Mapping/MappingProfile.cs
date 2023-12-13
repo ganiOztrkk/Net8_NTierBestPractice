@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using Business.Features.Auth.Register;
 using Business.Features.Categories.CreateCategory;
 using Business.Features.Categories.GetCategories;
 using Business.Features.Categories.UpdateCategory;
 using Business.Features.Products.CreateProduct;
 using Business.Features.Products.GetProducts;
 using Business.Features.Products.UpdateProduct;
+using Business.Features.Roles;
 using Entities.Models;
 
 namespace Business.Mapping;
@@ -20,6 +22,8 @@ internal sealed class MappingProfile : Profile
         CreateMap<CreateCategoryCommand, Category>().ReverseMap();
         CreateMap<UpdateCategoryCommand, Category>().ReverseMap();
         CreateMap<GetCategoriesQuery, Category>().ReverseMap();
+
+        CreateMap<RegisterCommand, AppUser>().ReverseMap();
     }
 }
 

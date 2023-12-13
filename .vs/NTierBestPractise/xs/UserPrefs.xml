@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{AA2C84F9-A20D-4CE9-B864-BB460E9654CC}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gani/Desktop/Github/NTierBestPractise/DataAccess/Authorization/RoleAttribute.cs" relfile="DataAccess/Authorization/RoleAttribute.cs" line="10" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/Middleware/ExceptionMiddleware.cs">
+    <Files>
+      <File FileName="WebApi/Middleware/ExceptionMiddleware.cs" Line="12" Column="10" />
+      <File FileName="WebApi/Program.cs" Line="45" Column="54" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NTierBestPractise" expanded="True">
-            <Node name="Business" expanded="True">
-              <Node name="Behaviors" expanded="True" />
-              <Node name="Features" expanded="True">
-                <Node name="Products" expanded="True">
-                  <Node name="CreateProduct" expanded="True">
-                    <Node name="CreateProductCommandValidator.cs" selected="True" />
-                  </Node>
-                </Node>
+            <Node name="WebApi">
+              <Node name="Middleware" expanded="True">
+                <Node name="ExceptionMiddleware.cs" selected="True" />
               </Node>
-            </Node>
-            <Node name="WebApi" expanded="True">
-              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -24,9 +25,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

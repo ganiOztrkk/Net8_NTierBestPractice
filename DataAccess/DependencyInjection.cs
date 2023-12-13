@@ -34,6 +34,7 @@ public static class DependencyInjection
             })
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
         services.AddScoped<IUnitOfWork>(sv => sv.GetRequiredService<ApplicationDbContext>());
         
 

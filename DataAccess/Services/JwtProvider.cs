@@ -25,6 +25,7 @@ internal sealed class JwtProvider : IJwtProvider
         Claim[] claims = new Claim[]
         {
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new Claim("NameLastname", string.Join(" ",user.Name,user.Lastname)),
             new Claim("Email", user.Email)
         };
@@ -34,7 +35,7 @@ internal sealed class JwtProvider : IJwtProvider
             audience: _jwt.Audience,
             claims: claims,
             notBefore: DateTime.Now,
-            expires: DateTime.Now.AddSeconds(10),
+            expires: DateTime.Now.AddMinutes(10),
             signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwt.SecretKey)), SecurityAlgorithms.HmacSha512));
 
         JwtSecurityTokenHandler handler = new();

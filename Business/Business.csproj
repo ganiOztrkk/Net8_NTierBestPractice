@@ -34,6 +34,11 @@
     <None Remove="Features\Auth\" />
     <None Remove="Features\Auth\Register\" />
     <None Remove="Features\Auth\Login\" />
+    <None Remove="Features\Roles\" />
+    <None Remove="Features\Roles\CreateRole\" />
+    <None Remove="Features\Roles\GetRoles\" />
+    <None Remove="Features\UserRoles\" />
+    <None Remove="Features\UserRoles\SetUserRole\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
@@ -52,5 +57,10 @@
     <Folder Include="Features\Auth\" />
     <Folder Include="Features\Auth\Register\" />
     <Folder Include="Features\Auth\Login\" />
+    <Folder Include="Features\Roles\" />
+    <Folder Include="Features\Roles\CreateRole\" />
+    <Folder Include="Features\Roles\GetRoles\" />
+    <Folder Include="Features\UserRoles\" />
+    <Folder Include="Features\UserRoles\SetUserRole\" />
   </ItemGroup>
 </Project>

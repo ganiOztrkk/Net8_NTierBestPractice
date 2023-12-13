@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.Models;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
@@ -7,10 +8,11 @@ namespace Business.Features.Auth.Register;
 internal sealed class RegisterCommandHandler : IRequestHandler<RegisterCommand, Unit>
 {
     private readonly UserManager<AppUser> _userManager;
-
-    public RegisterCommandHandler(UserManager<AppUser> userManager)
+    private readonly IMapper _mapper;
+    public RegisterCommandHandler(UserManager<AppUser> userManager, IMapper mapper)
     {
         _userManager = userManager;
+        _mapper = mapper;
     }
 
     public async Task<Unit> Handle(RegisterCommand request, CancellationToken cancellationToken)
@@ -22,14 +24,7 @@ internal sealed class RegisterCommandHandler : IRequestHandler<RegisterCommand, 
 
         if (checkEmailExists is not null)
             throw new ArgumentException("Mail already exist");
-        AppUser appUser = new()
-        {
-            Id = Guid.NewGuid(),
-            Email = request.Email,
-            Name = request.Name,
-            Lastname = request.Lastname,
-            UserName = request.UserName
-        };
+        var appUser = _mapper.Map<AppUser>(request);
 
         await _userManager.CreateAsync(appUser, request.Password);
 

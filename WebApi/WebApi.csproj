@@ -24,10 +24,12 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Abstractions\" />
+    <None Remove="Middleware\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Abstractions\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">

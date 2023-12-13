@@ -2,6 +2,7 @@
 using Business.Features.Categories.GetCategories;
 using Business.Features.Categories.RemoveCategoryById;
 using Business.Features.Categories.UpdateCategory;
+using DataAccess.Authorization;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Abstractions;
@@ -15,6 +16,7 @@ public sealed class CategoriesController : ApiController
     }
 
     [HttpPost]
+    [RoleFilter("Category.Add")]
     public async Task<IActionResult> Add(CreateCategoryCommand request, CancellationToken cancellationToken)
     {
         await _mediator.Send(request, cancellationToken);
@@ -23,6 +25,7 @@ public sealed class CategoriesController : ApiController
     }
 
     [HttpPost]
+    [RoleFilter("Category.Update")]
     public async Task<IActionResult> Update(UpdateCategoryCommand request, CancellationToken cancellationToken)
     {
         await _mediator.Send(request, cancellationToken);
@@ -31,6 +34,7 @@ public sealed class CategoriesController : ApiController
     }
 
     [HttpPost]
+    [RoleFilter("Category.Remove")]
     public async Task<IActionResult> RemoveById(RemoveCategoryByIdCommand request, CancellationToken cancellationToken)
     {
         await _mediator.Send(request, cancellationToken);
@@ -39,6 +43,7 @@ public sealed class CategoriesController : ApiController
     }
 
     [HttpPost]
+    [RoleFilter("Category.GetAll")]
     public async Task<IActionResult> GetAll(GetCategoriesQuery request, CancellationToken cancellationToken)
     {
         var categoryList = await _mediator.Send(request, cancellationToken);
