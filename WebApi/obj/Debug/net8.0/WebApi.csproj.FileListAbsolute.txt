@@ -15,6 +15,7 @@
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/Humanizer.dll
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/MediatR.dll
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -254,6 +255,7 @@
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/WebApi.sourcelink.json
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/staticwebassets.build.json
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/staticwebassets.development.json
 /Users/gani/Desktop/Github/NTierBestPractise/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props

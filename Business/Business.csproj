@@ -31,6 +31,9 @@
     <None Remove="Features\Products\RemoveProductById\" />
     <None Remove="Behaviors\" />
     <None Remove="Mapping\" />
+    <None Remove="Features\Auth\" />
+    <None Remove="Features\Auth\Register\" />
+    <None Remove="Features\Auth\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
@@ -46,5 +49,8 @@
     <Folder Include="Features\Products\RemoveProductById\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Mapping\" />
+    <Folder Include="Features\Auth\" />
+    <Folder Include="Features\Auth\Register\" />
+    <Folder Include="Features\Auth\Login\" />
   </ItemGroup>
 </Project>

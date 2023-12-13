@@ -10,6 +10,7 @@
 /Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache
 /Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs
 /Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache
+/Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/Business.sourcelink.json
 /Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/Business.csproj.CopyComplete
 /Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/Business.dll
 /Users/gani/Desktop/Github/NTierBestPractise/Business/obj/Debug/net8.0/refint/Business.dll
